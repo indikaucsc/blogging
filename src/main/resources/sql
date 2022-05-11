@@ -1,0 +1,8 @@
+INSERT INTO `blogging`.`users` (`id`, `created_on`, `modified_on`, `address`, `email`, `name`, `password`, `username`) VALUES ('1', '2020-01-03 06:20:28', '2020-01-03 06:20:28', 'Galle', 'admin', 'admin', '$2a$10$/.PwbIi8fCKOF1qxKGdSvOVlm1Tu44Erig1SQh8x3KGAWd9J3kIXG', 'admin');
+
+
+INSERT INTO `blogging`.`roles` (`id`, `created_on`, `modified_on`, `name`) VALUES ('1', '2020-01-03 06:20:28', '2020-01-03 06:20:28', 'ADMIN');
+
+
+INSERT INTO `blogging`.`user_roles` (`user_id`, `role_id`) VALUES ('1', '1');
+
